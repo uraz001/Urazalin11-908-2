@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="screenBackground">#1b7fd1</color>
+    <color name="text_bottom">#c9c9c9</color>
+    <color name="ripple_eff">#0a0a0a</color>
+    <color name="btn_sign_in">#c43b3b</color>
+    <color name="btn_sign_in_stroke">#eb6e6e</color>
+</resources>
