@@ -1,0 +1,87 @@
+table, td, th {
+	border: 1px solid black;
+}
+table{
+	width:90%;
+}
+td,th{
+	padding: 3px;
+	width: 30px;
+	height: 35px;
+}
+
+.a{
+	padding-left: 80px;
+}
+.b{
+padding-left:55px;}
+
+.c{
+padding-left:30px;}
+
+.block{
+	padding:5px;
+}
+.itis2{
+	padding-bottom:25px;
+}
+.itis1{
+	padding-bottom:20px;
+}
+.itis3{
+	padding-bottom:200px;
+}
+.itis4{
+	padding-bottom:40px;
+}
+.line1{
+	line-height:5px;
+}
+.query1{
+    margin: 0px;
+
+}
+.form1{
+	margin:0px;
+}
+.first1{
+    margin: 0;
+    padding: 0;
+    padding-top: 3px;
+}
+.second1{
+    margin: 0;
+    margin-top: 5px;
+    padding: 0;
+    padding-bottom: 3px;
+}
+.first2{
+    margin: 0;
+    padding: 0;
+    padding-top: 3px;
+}
+.second2{
+    margin: 0;
+    margin-top: 20px;
+    padding: 0;
+    padding-bottom: 3px;
+}
+.first3{
+    margin: 0;
+    padding: 0;
+    padding-top: 3px;
+}
+.second3{
+    margin: 0;
+    margin-top: 40px;
+    padding: 0;
+    padding-bottom: 3px;
+}
+.write{
+	margin:0px;
+	padding:0px;
+}
+.word{
+	margin:0px;
+}
+	
