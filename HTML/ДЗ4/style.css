@@ -1,0 +1,731 @@
+@charset "Utf-8";
+
+* {
+	margin: 0px;
+	padding: 0px;
+	outline: none;
+
+}
+
+body {
+	width: 100%;
+	background-color: #EDEEF0;
+}
+
+a {
+	text-decoration: none;
+	cursor: pointer;
+}
+
+a:hover {
+	text-decoration: underline;
+	
+}
+
+header {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 42px;
+	background-color: #507299;
+	z-index: 1000px;
+	margin-bottom: 10px;
+}
+
+.wrapperHeader {
+	margin: 0px auto;
+	width: 950px;
+	height: 40px;
+}
+
+.logotype {
+	float: left;
+	width: 160px;
+	height: 40px;
+	background: url('images/logotype.png') no-repeat;
+	background-size: 33px;
+	background-position: 0px 4px;
+	cursor: pointer;
+}
+
+.logotype:active {
+	background-position: 0px 5px;
+}
+
+
+.search {
+	padding: 0px 0px 10px 25px;
+	width: 225px;
+	height: 27px;
+	border: transparent;
+	background: url('images/search.png') no-repeat #31537A;
+	background-position: 7px 7px;
+	border-radius: 15px;
+	color: #C0CDDB;
+	font-size: .75em;
+	box-sizing: border-box;
+	padding-top: 15px;
+	float: left;
+	margin-top: 8px;
+}
+
+
+.search:focus {
+	background-color: #FFF;
+	color: #000;
+}
+.blockMirlan{
+	float: left;
+	margin-top: 10px;
+	margin-left: 45px;
+}
+
+.bell{
+	margin: 10px;
+	padding-left:15px;
+	float: left;
+	
+}
+.music{
+	margin: 11px;
+	float: left;
+	padding-left:20px;
+
+}
+.name{
+	color: white;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	margin-bottom: 100px;
+	margin-left:300px;
+	width: 45px;
+	height: 42px;
+	font-size: 13px;
+}
+.round {
+    border-radius: 100px; /* Радиус скругления */
+   	box-shadow: 0 0 7px #666; /* Параметры тени */
+	height: 60%;
+	margin-left: 10px;
+	margin-top: 8px;
+}
+.list{
+	padding-top: 55px;
+	padding-left:200px;
+}
+li{
+	color:#486F96;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	padding: 3px 0px 3px 0px;
+}
+
+.list{
+	font-size: 13px;
+	width: 115px;
+	margin: 0px;
+}
+.list1{
+	list-style-image: url(images/pic1.png);
+	
+}
+.list2{
+	list-style-image: url(images/pic13.png);
+	
+}
+.list3{
+	list-style-image: url(images/pic2.png);
+	
+}
+.list4{
+	list-style-image: url(images/pic3.png);
+	
+}
+.list5{
+	list-style-image: url(images/pic4.png);
+	
+}
+.list6{
+	list-style-image: url(images/pic5.png);
+	
+}
+.list7{
+	list-style-image: url(images/pic6.png);
+	
+}
+.list8{
+	list-style-image: url(images/pic7.png);
+	
+}
+.list9{
+	list-style-image: url(images/pic15.png);
+	
+}
+.list10{
+	list-style-image: url(images/pic8.png);
+	
+}
+.list11{
+	list-style-image: url(images/pic14.png);
+	
+}
+.list12{
+	list-style-image: url(images/pic11.png);
+	
+}
+.list13{
+	list-style-image: url(images/pic12.png);
+	
+}
+.list14{
+	list-style-image: url(images/pic10.png);
+	
+}
+.list15{
+	list-style-image: url(images/pic9.png);
+	
+}
+.list16{
+	list-style-image: url(images/pic16.png);
+	
+}
+hr{
+	border:none; background:#333; height:1px;
+	background-color:#DCE1E6;
+}
+.line1{
+	margin: 5px 0px 5px 0px;
+}
+.line2{
+	margin: 5px 0px 5px 0px;
+}
+.line3{
+	margin: 5px 0px 5px 0px;
+}
+.links{
+	width: 180px;
+	margin-left: 180px;
+	margin-top: 25px;
+}
+a{
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	color:#A4A4A4;
+	font-size: 13px;
+}
+div { 
+	border-radius: 5px; 
+}
+.sidebar{
+	width: 25%;
+	float: left;
+	
+}
+.innerSidebar{
+	min-height: 500px;
+	
+}
+.content1{
+	width: 20%;
+	float: left;
+	height: 2000px;
+	min-height: 500px;
+	margin-top: 60px;
+}
+.profilePhoto{
+	background-color: #FFFFFF;
+	height: 280px;
+}
+.photo{
+	margin-left: 27px;
+}
+.content2{
+	width:53% ;
+	float: left;
+	min-height: 500px;
+	margin-top: 60px;
+	height: 1500px;
+	margin-left: 20px;
+}
+.blockРедактировать{
+	float: left;
+	margin-right: 10px;
+	width: 100px;
+	margin-left: 24px;
+	margin-top:15px;
+	padding:7px 30px 7px 30px;
+	background-color: #E5EBF1;
+
+}
+.Редактировать{
+	font-size: 14px;
+	color: #557BBA;
+}
+.tochki{
+	background-color: #E5EBF1;
+	width: 20px;
+	float: left;
+	padding: 5px 9px 9px 11px;
+	margin-top: 15px;
+	margin-left: 5px;
+
+}
+.presents{
+	height: 100px;
+	width: 265px;
+	margin-top: 20px;
+	background-color: #FFFFFF;
+}
+.blockPresents{
+	margin-left: 15px;
+	padding-top: 10px;
+	width: 60px;
+	float: left;
+}
+.Подарки{
+	font-size: 14px;
+	color:#000000;
+	
+}
+.blockP20{
+float: left;
+margin-left: 5px;
+padding-top: 11px;
+padding-right: 150px;
+}
+
+.img1{
+	padding-left: 20px;
+}
+.blockFriends{
+	height: 230px;
+	width: 265px;
+	margin-top: 20px;
+	background-color: #FFFFFF;
+}
+.blockДрузья{
+	margin-left: 15px;
+	padding-top: 10px;
+	width: 45px;
+	float: left;
+	padding-bottom: 10px;
+
+}
+.Друзья{
+	font-size:14px;
+	color: #000000;
+}
+.blockD57{
+	float: left;
+	margin-left: 7px;
+	padding-top: 11px;
+	
+}
+.D57{
+	padding-right: 90px;
+}
+.blockAv{
+	margin-left: 15px;
+	height: 210px;
+}
+
+
+
+.blockFriendsOnline{
+	height: 150px;
+	width: 265px;
+	margin-top: 1px;
+	background-color: #FFFFFF;
+}
+.blockДрузьяОнлайн{
+	margin-left: 15px;
+	padding-top: 10px;
+	width: 100px;
+	float: left;
+	padding-bottom: 10px;
+
+}
+.ДрузьяОнлайн{
+	font-size:14px;
+	color: #000000;
+}
+.blockD2{
+	float: left;
+	margin-left: 7px;
+	padding-top: 11px;
+	width: 130px;
+	
+}
+.D2{
+	padding-right: 90px;
+}
+.blockAvOnline{
+	margin-left: 15px;
+	height: 210px;
+}
+
+
+.blockSub{
+	height: 340px;
+	width: 265px;
+	margin-top: 20px;
+	background-color: #FFFFFF;
+
+}
+.blockПодписки{
+	margin-left: 15px;
+	padding-top: 10px;
+	width: 60px;
+	float: left;
+	margin-right: 5px;
+}
+.Подписки{
+	font-size: 14px;
+	color:#000000;
+	
+}
+.blockP34{
+width: 50px;
+float: left;
+margin-left: 5px;
+padding-top: 11px;
+
+}
+.p34{
+	padding-right: 170px;
+}
+
+
+.blockVideo{
+	height: 340px;
+	width: 265px;
+	margin-top: 1px;
+	background-color: #FFFFFF;
+
+}
+.blockВидео{
+	margin-left: 15px;
+	padding-top: 10px;
+	width: 60px;
+	float: left;
+	margin-right: 5px;
+}
+.Видео{
+	font-size: 14px;
+	color:#000000;
+	
+}
+.blockV12{
+width: 50px;
+float: left;
+margin-left: 25px;
+padding-top: 11px;
+
+}
+.v34{
+	padding-right: 170px;
+}
+.blockImgVideo{
+	margin-left: 15px;
+}
+
+
+.blockMusic{
+	height: 210px;
+	width: 265px;
+	margin-top: 1px;
+	background-color: #FFFFFF;
+
+}
+.blockАудиозаписи{
+	margin-left: 15px;
+	padding-top: 10px;
+	width: 60px;
+	float: left;
+	margin-right: 5px;
+}
+.Аудиозаписи{
+	font-size: 14px;
+	color:#000000;
+	
+}
+.blockM100{
+width: 50px;
+float: left;
+margin-left: 25px;
+padding-top: 11px;
+
+}
+.M100{
+	padding-right: 170px;
+}
+
+
+.page1{
+	width: 520px;
+	height: 240px;
+	background-color: #FFFFFF;
+	
+}
+.info1{
+	margin-left: 23px;
+	padding-top:15px;
+	height: 60px;
+
+}
+.namesurname{
+	font-family: Tahoma;
+	font-weight: 540;
+	font-size: 18px;
+	margin-bottom: 3px;
+	width: 160px;
+	float: left;
+	margin-right:280px ;
+	
+}
+.online{
+	float: left;
+}
+.status{
+	margin-left: 1px;
+}
+.info2{
+	width: 520px;
+	height: 80px;
+}
+.noneInfo{
+	margin-left: 20px;
+	margin-top: 15px;
+}
+.showMoreInfo{
+	font-size: 14px;
+	color: #557BBA;
+	width: 100px;
+}
+.blockShowMoreInfo{
+	margin-left: 150px;
+	margin-top: 20px;
+	margin-bottom: 15px;
+}
+.block1{
+	float: left;
+	margin-left: 70px;
+	width: 50px;;
+	height: 65px;
+}
+.count1{
+	font-size: 23px;
+	color: #557BBA;
+	margin-left: 15px;
+	margin-top:10px;
+}
+.block2{
+	margin-left: 40px;
+	width: 70px;;
+	height: 65px;
+	float: left;
+}
+.name1{
+	margin-left: 6px;
+}
+	
+
+.count2{
+	font-size: 23px;
+	color: #557BBA;
+	margin-left: 30px;
+}
+.block3{
+	margin-left: 35px;
+	width: 50px;;
+	height: 65px;
+	float: left;
+}
+.count3{
+	font-size: 23px;
+	margin-left: 30px;
+	color: #557BBA;
+}
+.block4{
+	margin-left: 65px;
+	width: 50px;;
+	height: 65px;
+	float: left;
+}
+.count4{
+	font-size: 23px;
+	color: #557BBA;
+	margin-left:20px;
+}	
+.page2{
+	margin-top: 15px;
+	width: 520px;
+	height: 185px;
+	background-color: #FFFFFF;
+}
+.infoPhoto{
+	padding-top: 10px;
+	margin-left: 20px;
+	width: 300px;
+	height: 20px;
+}
+.myPhoto{
+	font-size: 14px;
+	color:#000000;
+}
+.blockMyPhoto{
+	
+	float: left;
+}
+.blockCountPhoto{
+	float: left;
+	margin-left: 5px;
+	
+}
+.cats img{
+	margin-right: 20px; /* Отступ справа */
+	margin-top: 15px;
+	width: 22%;
+	float: left;
+}
+.cats{
+	width: 550px;
+	height: 150px;
+	margin-left: 55px;
+}
+
+.page3{
+	width: 520px;
+	height: 50px;
+	margin-top: 15px;
+	background-color: #FFFFFF;
+}
+.smallPhoto {
+    border-radius: 30px; /* Радиус скругления */
+	width: 95%;
+   }
+.blockSmallPhoto{
+	width: 25px;
+	padding-top: 12px;
+	margin-left: 20px;
+	float: left;
+}
+.status2{
+	float: left;
+	padding-top: 15px;
+	margin-left: 10px;
+}
+.icons{
+	padding-top: 8px;
+	margin-left: 180px;
+}
+.page4{
+	background-color: #FFFFFF;
+	width: 520px;
+	height: 50px;
+	margin-top: 15px;
+}
+.blockRecord1{
+	width: 70px;
+	padding-top:15px;
+	margin-left:25px;
+	float: left;
+}
+.record1{
+	font-size: 14px;
+	color:#000000;
+}
+.blockRecord2{
+	float: left;
+	width: 80px;
+	padding-top:15px;
+	margin-left:25px;
+}
+.record2{
+	font-size: 14px;
+	
+}
+.blockRecord3{
+	width: 100px;
+	padding-top:15px;
+	margin-left:20px;
+	float: left;
+	margin-right: 50px;
+}
+.record3{
+	font-size: 14px;
+
+}
+.search2{
+	padding-top: 18px;
+	margin-left: 120px;
+}
+.page5{
+	background-color: #FFFFFF;
+	width: 520px;
+	height: 515px;
+	margin-top: 1px;
+}
+.blockPhoto{
+	width: 50px;
+	padding-top: 20px;
+	margin-left: 30px;
+	float: left;
+}
+.photoCat{
+	border-radius: 100px; /* Радиус скругления */
+	width:50px;
+ }
+.blockName{
+	padding-top: 25px;
+	padding-left: 90px;
+}
+.namesurname2{
+	font-size: 14px;
+	color: #557BBA;
+}
+.date{
+	padding-left:90px ;
+}
+.photoCat2{
+	width: 470px;
+	height: 350px;
+	margin-left: 25px;
+}
+.blockPhoto2{
+	width: 520px;
+	height: 370px;
+	margin-top: 15px;
+	
+}
+.mirlan{
+	color: #FFFFFF;
+}
+.hr1{
+	margin-left: 25px;
+	margin-right: 25px;
+}
+.blockIcons{
+	width: 520px;
+	height: 50px;
+	padding-top: 15px;
+}
+.likess{
+	margin-left: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
